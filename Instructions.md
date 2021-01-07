@@ -1,4 +1,4 @@
-# BBC Children's - Senior Engineer Technical Test
+# BBC Children's & Education - Senior Engineer Technical Test
 
 ## Overview
 We have a codebase that produces a classic Snake game, it is written in Pixi, JavaScript, webpack and babel and can be played with directly in a web browser.
