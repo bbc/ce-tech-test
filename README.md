@@ -11,6 +11,8 @@ Pixi.js, webpack, babel and JEST are used to produce this game.
 ## Building and running locally
 
 ```javascript
+$ git clone git@github.com:bbc/ce-tech-test.git && cd ce-tech-test
+$ npm install
 $ npm run build
 $ npm run serve
 ```
