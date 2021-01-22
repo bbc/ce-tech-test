@@ -6,7 +6,9 @@ The technical test is a JavaScript application that ultimately produces a playab
 
 # Developing
 
-Pixi.js, webpack, babel and JEST are used to produce this game. 
+Pixi.js, webpack, babel and Jest are used to produce this game. 
+
+You'll need Node v13 installed.
 
 ## Building and running locally
 
