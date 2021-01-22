@@ -23,7 +23,8 @@
     "lint": "eslint ./src --fix",
     "test": "npm run lint && jest",
     "build": "webpack --mode production",
-    "serve": "python -m SimpleHTTPServer"
+    "serve": "python -m SimpleHTTPServer",
+    "serve27": "python2.7 -m SimpleHTTPServer"
   },
   "repository": {
     "type": "git",
