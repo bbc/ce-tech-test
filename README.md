@@ -16,7 +16,7 @@ You'll need Node v13 installed.
 $ git clone git@github.com:bbc/ce-tech-test.git && cd ce-tech-test
 $ npm install
 $ npm run build
-$ npm run serve
+$ npm run serve # or "npm run serve27" if this errors
 ```
 
 Snake will then be available at: http://localhost:8000
