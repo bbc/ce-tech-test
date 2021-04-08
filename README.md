@@ -4,6 +4,8 @@ The technical test is a JavaScript application that ultimately produces a playab
 
 ![](https://raw.githubusercontent.com/imjacobclark/pixi-snake/master/screenshots/screenshot.png?token=AAMQZWNOARVAIKS2JJTJTZ26KO47A)
 
+To ensure you have the most time available during the interview, please follow the instructions below to setup the application locally. Should you have any issues please let us know in advance.
+
 # Developing
 
 Pixi.js, webpack, babel and Jest are used to produce this game. 
@@ -26,3 +28,7 @@ Snake will then be available at: http://localhost:8000
 ```javascript
 $ npm run test
 ```
+
+## Tech test
+
+For details on the game and the tasks involved see the [Instructions here](./Instructions.md)
