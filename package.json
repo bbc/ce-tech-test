@@ -16,6 +16,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "jest": "^25.1.0",
+    "local-web-server": "^5.1.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
@@ -23,17 +24,16 @@
     "lint": "eslint ./src --fix",
     "test": "npm run lint && jest",
     "build": "webpack --mode production",
-    "serve": "python -m SimpleHTTPServer",
-    "serve27": "python2.7 -m SimpleHTTPServer"
+    "serve": "ws"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imjacobclark/pixi-snake.git"
+    "url": "git+https://github.com/bbc/ce-tech-test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imjacobclark/pixi-snake/issues"
+    "url": "https://github.com/bbc/ce-tech-test/issues"
   },
-  "homepage": "https://github.com/imjacobclark/pixi-snake#readme"
+  "homepage": "https://github.com/bbc/ce-tech-test"
 }

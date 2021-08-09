@@ -4,7 +4,7 @@ The technical test is a JavaScript application that ultimately produces a playab
 
 ![](https://raw.githubusercontent.com/imjacobclark/pixi-snake/master/screenshots/screenshot.png?token=AAMQZWNOARVAIKS2JJTJTZ26KO47A)
 
-To ensure you have the most time available during the interview, please follow the instructions below to setup the application locally. Should you have any issues please let us know in advance.
+To ensure you have the most time available during the interview, please follow the instructions below to set up the application locally. Should you have any issues please let us know in advance.
 
 # Developing
 
@@ -14,18 +14,18 @@ You'll need Node v13 installed.
 
 ## Building and running locally
 
-```javascript
+```shell
 $ git clone git@github.com:bbc/ce-tech-test.git && cd ce-tech-test
 $ npm install
 $ npm run build
-$ npm run serve # or "npm run serve27" if this errors
+$ npm run serve
 ```
 
 Snake will then be available at: http://localhost:8000
 
 ## Running tests
 
-```javascript
+```shell
 $ npm run test
 ```
 
