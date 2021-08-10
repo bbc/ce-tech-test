@@ -1,16 +1,9 @@
-import * as PIXI from 'pixi.js';
-import * as PIXISound from 'pixi-sound';
-
-import Snake from './Snake/Snake';
-import Food from './Food/Food';
-import Controls from './Game/Controls';
-import Text from './Game/Text';
-import Collision from './Collision/Collision';
-import { Status, RUNNING } from './Game/Status';
-
-window.PIXI = PIXI;
-window.PIXISound = PIXISound;
-window.window.PIXI.sound = PIXISound.default;
+import Snake from './Snake/Snake.js';
+import Food from './Food/Food.js';
+import Controls from './Game/Controls.js';
+import Text from './Game/Text.js';
+import Collision from './Collision/Collision.js';
+import { Status, RUNNING } from './Game/Status.js';
 
 const ONE_BLOCK_IN_PIXELS = 10;
 const SCREEN_OUT_OF_BOUNDS_OFFSET = 1;

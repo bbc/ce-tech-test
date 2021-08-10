@@ -1,6 +1,6 @@
 /* eslint class-methods-use-this: ["error", { "exceptMethods": ["hasCollided"] }] */
 
-import TwoObjectCollision from './TwoObjectCollision';
+import TwoObjectCollision from './TwoObjectCollision.js';
 
 export default class Collision {
   constructor(maxWidth, maxHeight) {

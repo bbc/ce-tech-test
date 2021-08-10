@@ -8,32 +8,28 @@
     "pixi.js": "^5.1.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "babel-jest": "^25.1.0",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "jest": "^25.1.0",
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "jest": "^27.0.6",
+    "local-web-server": "^5.1.0"
   },
   "scripts": {
     "lint": "eslint ./src --fix",
     "test": "npm run lint && jest",
-    "build": "webpack --mode production",
-    "serve": "python -m SimpleHTTPServer",
-    "serve27": "python2.7 -m SimpleHTTPServer"
+    "serve": "ws"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imjacobclark/pixi-snake.git"
+    "url": "git+https://github.com/bbc/ce-tech-test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imjacobclark/pixi-snake/issues"
+    "url": "https://github.com/bbc/ce-tech-test/issues"
   },
-  "homepage": "https://github.com/imjacobclark/pixi-snake#readme"
+  "homepage": "https://github.com/bbc/ce-tech-test"
 }

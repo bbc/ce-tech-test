@@ -1,4 +1,4 @@
-const RUNNING = 'Game is running, hit sacebar to pause';
+const RUNNING = 'Game is running, hit spacebar to pause';
 const PAUSED = 'Game is paused, hit spacebar to resume';
 const LOST = 'You have lost, refresh to play again...';
 
