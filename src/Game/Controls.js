@@ -1,4 +1,4 @@
-import { RUNNING } from './Status';
+import { RUNNING } from './Status.js';
 
 export default class Controls {
   constructor(snake, gameStatus) {

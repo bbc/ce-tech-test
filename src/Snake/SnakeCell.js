@@ -1,4 +1,4 @@
-import Cell from '../Game/Cell';
+import Cell from '../Game/Cell.js';
 
 export default class SnakeCell extends Cell {
   incrementX() {

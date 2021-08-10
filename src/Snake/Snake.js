@@ -1,4 +1,4 @@
-import SnakeCell from './SnakeCell';
+import SnakeCell from './SnakeCell.js';
 
 const UP = 'up';
 const DOWN = 'down';
